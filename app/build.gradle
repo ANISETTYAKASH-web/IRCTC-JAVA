@@ -23,6 +23,7 @@ dependencies {
     implementation libs.guava
 //    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.0'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.6'
+    implementation 'org.mindrot:jbcrypt:0.4'
 
 }
 

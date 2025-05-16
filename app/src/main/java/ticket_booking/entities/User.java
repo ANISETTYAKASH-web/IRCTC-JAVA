@@ -18,31 +18,31 @@ public User(String userName,String password,String hasehedPassword,List<Tickets>
     this.userId=userId;
 }
 public User(){}
-private String getUserName(){
+public String getUserName(){
     return userName;
     }
-private String getPassword()
+public String getPassword()
 {
     return password;
 
 }
-private String getHasehedPassword(){
+public String getHasehedPassword(){
     return hasehedPassword;
 }
-private List<Tickets> getTicketsBooked(){
+public List<Tickets> getTicketsBooked(){
     return ticketsBooked;
 }
-private void printTickets()
+public void printTickets()
 {
     for(int i=0;i<ticketsBooked.size();i++)
     {
         System.out.println(ticketsBooked.get(i).getTicketInfo());
     }
 }
-private String getUserId(){
+public String getUserId(){
     return userId;
 }
-private void setUserName(String name){
+public void setUserName(String name){
     this.userName=name;
 }
     public void setHashedPassword(String hashedPassword) {
