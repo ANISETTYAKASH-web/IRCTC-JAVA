@@ -12,13 +12,14 @@
         "destination" : "delhi",
         "date_time" : "2023-12-08T18:30:00Z",
         "train" : {
-          "train_name"  : "hava_express",
+          "train_id"  : "hava_express",
           "source" : "banglore",
           "destination" : "mumbai",
           "date_time" : "2023-12-10T18:30:00Z",
           "seats" : [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],
-          "station_times":{"Bangalore":"13:50:00","Jaipur":"13:50:00","Delhi":"13:50:00"},
-          "stations":["Bangalore","Jaipur","Delhi"]
+          "schedule":{"Bangalore":"13:50:00","Jaipur":"13:50:00","Delhi":"13:50:00"},
+          "stations":["Bangalore","Jaipur","Delhi"],
+          "train_no" : "1234"
 
         }
       }
